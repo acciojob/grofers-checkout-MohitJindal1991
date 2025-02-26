@@ -7,7 +7,7 @@ const table=document.querySelector("table");
 const getSum = () => {
 //Add your code here
 	getAllPrices.forEach(ele=>sum+=parseInt(ele.innerText));
-    table.innerHTML+=`<tr>
+    table.innerHTML+=`<tr id="ans">
 	<td>Total</td>
 	 <td>${sum}</td>
 	</tr>`
